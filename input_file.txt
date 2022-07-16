@@ -1,0 +1,5 @@
+int_in_range, 3, 6, 5
+get_pokemon_name, 68
+get_pokemon_weight, "Pikachu"
+string_in, "abcde","bdc"
+list_of_ints_in_range, [1, 55, 33, 2, -33], -90, 100
