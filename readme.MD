@@ -66,12 +66,13 @@ Example: python app.py input_file.txt
 
 The user can implement more functions by adding them to the `functions.py` file.
 The input arguments needs to be only arguments and not a key-value.
+**The user must set a type hint for every argument when implement function**.
 
 ### Supported types
 
 * int
 * str
-* list of strings. If you need a list of integers (or any other types) you can convert them within the custom function.
+* list of strings. If you need a list of integers (or any other types) you can convert them within the custom function. Currently it will not support lists of lists.
 
 ### Input format
 
